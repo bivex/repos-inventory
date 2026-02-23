@@ -8,53 +8,81 @@
 
 ### [NextJs-boilerplate](https://github.com/bivex/NextJs-boilerplate)
 - **Language:** TypeScript
-- **Description:** A production-ready starter template featuring Next.js 16, React 19, TypeScript, and Clean Architecture
+- **Version:** Next.js 16.1.1 | React 19.2.3 | TypeScript 5.9.3
+- **Frameworks:** Next.js 16.1.1, React 19.2.3, Radix UI 3.2.1, Tailwind CSS 4.1.18
+- **Description:** A modern, production-ready Next.js boilerplate featuring TypeScript, Emotion, Radix UI, and comprehensive development tooling
 - **Key Features:**
-  - Next.js 16 + React 19
-  - Radix UI Themes 3.0 component library
-  - Comprehensive testing with Jest
-  - Modern tooling (ESLint, Prettier, Husky)
-  - Domain-Driven Design patterns
+  - 🚀 Next.js 16.1.1 with App Router and Turbopack
+  - ⚛️ React 19.2.3 with concurrent features and improved performance
+  - 💎 TypeScript 5.9.3 with strict configuration and path mapping
+  - 🎨 Modern Styling: Radix UI Themes + Tailwind CSS for maximum flexibility
+  - ♿ Accessible UI: Radix UI primitives with ARIA compliance and 30+ color scales
+  - 🧪 Testing Suite: Jest + Testing Library with comprehensive coverage
+  - 🔧 Developer Experience: ESLint, Prettier, Husky, and lint-staged
+  - 📱 Mobile-First: Responsive design with Radix Themes layout engine
+  - 🎯 Performance: Optimized builds, server components, and code splitting
+  - 📦 Modern Tooling: Bun runtime, hot reloading, and bundle analysis
+  - 🐛 Error Debugging: Sentry integration for production error tracking
+- **Project Structure:**
+  ```
+  src/
+  ├── app/                    # Next.js App Router
+  ├── domain/                 # Business logic (Clean Architecture)
+  ├── application/            # Application layer
+  ├── infrastructure/         # External integrations
+  ├── presentation/          # UI layer
+  ├── lib/                   # Shared utilities
+  └── utils/                # Helper functions
+  ```
+- **Clean Architecture:** Domain-Driven Design with clear layer separation
 - **[→ Repository](https://github.com/bivex/NextJs-boilerplate)**
-
----
-
-### [angular-customer-portal](https://github.com/bivex/angular-customer-portal)
-- **Language:** TypeScript
-- **Description:** Comprehensive Keygen customer portal system implemented as a monorepo with separate frontend and backend components
-- **Key Features:**
-  - Monorepo architecture
-  - Separate frontend and backend
-  - Keygen integration
-- **[→ Repository](https://github.com/bivex/angular-customer-portal)**
 
 ---
 
 ### [SaaS-Boilerplate](https://github.com/bivex/SaaS-Boilerplate)
 - **Language:** TypeScript
-- **Description:** SaaS boilerplate template
-- **Updated:** 2026y
-- **[→ Repository](https://github.com/bivex/SaaS-Boilerplate)**
-
----
-
-### [laravel-nuxt](https://github.com/bivex/laravel-nuxt)
-- **Language:** PHP
-- **Forks:** 🍴 1
-- **Description:** Laravel and Nuxt.js boilerplate designed for development with maximum API performance
+- **Frameworks:** Next.js, Tailwind CSS, Shadcn UI
+- **Description:** Free and Open Source SaaS Boilerplate with Tailwind CSS and Shadcn UI
+- **Sponsors:** Clerk, CodeRabbit, Codecov
 - **Key Features:**
-  - Maximum API performance
-  - Ready-made authorization methods
-  - Image uploading with optimization
-  - User roles and device management
-- **[→ Repository](https://github.com/bivex/laravel-nuxt)**
+  - 🚀 Powerful and fully customizable template to kickstart your SaaS applications
+  - Built with **Next.js** and **Tailwind CSS**
+  - Modular UI components of **Shadcn UI**
+  - 📋 Essential features:
+    - Built-in Authentication (Clerk)
+    - Multi-Tenancy with Team support
+    - Role & Permission
+    - Database
+    - I18n (internationalization)
+    - Landing Page
+    - User Dashboard
+    - Form handling
+    - SEO optimization
+    - Logging, Error reporting, Testing
+    - Deployment, Monitoring
+    - User Impersonation
+  - 💎 TypeScript for type safety
+  - 🎨 ESLint for code quality
+  - 📏 Prettier for consistent formatting
+  - 🧪 Testing: Vitest + React Testing Library (unit), Playwright (integration/E2E)
+  - 🔄 CI/CD: GitHub Actions
+  - 🔐 Authentication: Clerk
+  - 💾 Database: Drizzle ORM (type-safe, supports PostgreSQL, SQLite, MySQL)
+  - 📡 Live Demo: [react-saas.com](https://react-saas.com)
+- **Supported Databases:** PostgreSQL, SQLite, MySQL (Prisma PostgreSQL recommended)
+- **Platform Support:**
+  - macOS (Apple Silicon & Intel)
+  - Windows
+  - Linux (.deb, .rpm, AppImage)
+- **Desktop App:** Available via Homebrew (`brew install --cask opencode-desktop`)
+- **[→ Repository](https://github.com/bivex/SaaS-Boilerplate)**
 
 ---
 
 ### [electrostatic](https://github.com/bivex/electrostatic)
 - **Language:** Go
 - **Description:** Static sites generator
-- **Updated:** 2026-02-21
+- **Last Updated:** 2026-02-21
 - **[→ Repository](https://github.com/bivex/electrostatic)**
 
 ---
@@ -62,7 +90,7 @@
 ### [mysite](https://github.com/bivex/mysite)
 - **Language:** CSS
 - **Description:** Personal website
-- **Updated:** 2026-02-21
+- **Last Updated:** 2026-02-21
 - **[→ Repository](https://github.com/bivex/mysite)**
 
 ---
@@ -110,6 +138,8 @@
 - **[→ Repository](https://github.com/bivex/brand-color-palette-generator)**
 
 ---
+
+## Architecture Analysis Tools
 
 ### [animated-enigma](https://github.com/bivex/animated-enigma)
 - **Language:** TypeScript
@@ -162,13 +192,30 @@
 
 ---
 
+## Other Projects
+
+### [angular-customer-portal](https://github.com/bivex/angular-customer-portal)
+- **Language:** TypeScript
+- **Description:** Comprehensive Keygen customer portal system implemented as a monorepo with separate frontend and backend components
+- **[→ Repository](https://github.com/bivex/angular-customer-portal)**
+
+---
+
+### [larana-test](https://github.com/bivex/larana-test)
+- **Language:** Go
+- **Description:** Testing project
+- **Last Updated:** 2026-02-21
+- **[→ Repository](https://github.com/bivex/larana-test)**
+
+---
+
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| **Total Web Projects** | 18+ |
-| **Languages** | TypeScript, JavaScript, PHP, HTML, Go, Swift |
-| **Key Areas** | Boilerplates, Design tools, Architecture analysis |
+| **Total Web Projects** | 20+ |
+| **Languages** | TypeScript, JavaScript, Go, HTML, Swift, CSS |
+| **Key Areas** | Boilerplates, Design tools, Architecture analysis, Live chat |
 
 ---
 

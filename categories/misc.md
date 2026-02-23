@@ -42,13 +42,14 @@
 ### [gcl-switcher](https://github.com/bivex/gcl-switcher)
 - **Language:** JavaScript
 - **Description:** Git Credential Librarian switcher
+- **Last Updated:** 2026-02-21
 - **[→ Repository](https://github.com/bivex/gcl-switcher)**
 
 ---
 
 ### [keygen-api](https://github.com/bivex/keygen-api)
 - **Language:** Gherkin
-- **Description:** Keygen is a modern, fair source software licensing and distribution API
+- **Description:** Keygen is a modern, fair source software licensing and distribution API for developers, by developers
 - **[→ Repository](https://github.com/bivex/keygen-api)**
 
 ---
@@ -128,7 +129,7 @@
 
 ### [sonic-pi](https://github.com/bivex/sonic-pi)
 - **Language:** Ruby
-- **Description:** Create music
+- **Description:** Create music with Sonic Pi
 - **[→ Repository](https://github.com/bivex/sonic-pi)**
 
 ---
@@ -158,6 +159,7 @@
 ### [larana-test](https://github.com/bivex/larana-test)
 - **Language:** Go
 - **Description:** Testing project
+- **Last Updated:** 2026-02-21
 - **[→ Repository](https://github.com/bivex/larana-test)**
 
 ---
@@ -181,7 +183,22 @@
 ### [System-Audio-Recorder](https://github.com/bivex/System-Audio-Recorder)
 - **Language:** C#
 - **Description:** WPF приложение для одновременной записи системного звука и звука с микрофона в один файл (WAV или MP3)
+- **Translation:** WPF application for simultaneous recording of system audio and microphone audio to one file (WAV or MP3)
 - **[→ Repository](https://github.com/bivex/System-Audio-Recorder)**
+
+---
+
+### [CppPointerVisualizer](https://github.com/bivex/CppPointerVisualizer)
+- **Language:** C#
+- **Description:** C++ Pointer Visualizer by WPF
+- **[→ Repository](https://github.com/bivex/CppPointerVisualizer)**
+
+---
+
+### [FrameProExample-60FPS](https://github.com/bivex/FrameProExample-60FPS)
+- **Language:** C++
+- **Description:** FrameProExample fixed by FramePro-MCP
+- **[→ Repository](https://github.com/bivex/FrameProExample-60FPS)**
 
 ---
 
@@ -190,8 +207,8 @@
 | Metric | Count |
 |--------|-------|
 | **Total Misc Projects** | 30+ |
-| **Languages** | Python, Shell, JavaScript, Ruby, PHP, C# |
-| **Key Areas** | Infrastructure, Business, Personal, Entertainment |
+| **Languages** | Python, Shell, JavaScript, Ruby, PHP, C#, C++ |
+| **Key Areas** | Infrastructure, Business, Personal, Entertainment, Windows tools |
 
 ---
 

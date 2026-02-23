@@ -10,11 +10,43 @@
 - **Language:** TypeScript
 - **Description:** Hexagonal DDD Analyzer: Enterprise-grade static analysis tool for TypeScript/Angular projects
 - **Key Features:**
-  - Validates Domain-Driven Design patterns
-  - SOLID principles validation
-  - Hexagonal architecture checks
-  - High-performance parallel processing
-  - CI/CD integration
+  - ⚡ **High Performance & Parallel Processing**
+    - Parallel file analysis with configurable concurrency
+    - Real-time progress reporting during analysis
+    - CPU-aware defaults (automatically detects available cores)
+    - Configurable limits to prevent resource exhaustion
+  - 📋 **Comprehensive Console Output**
+    - Summary at beginning with key metrics
+    - Final summary at end with quality progress bar
+    - Color-coded severity levels (red/yellow/blue)
+    - Categorized violation breakdown (SOLID, DDD, Architecture, Security)
+  - 🏗️ **Enterprise Architecture Analysis**
+    - Hexagonal Architecture validation
+    - Domain-Driven Design (DDD) pattern detection
+    - SOLID Principles compliance checking
+    - Security vulnerability detection
+    - Code quality metrics and thresholds
+- **Usage Examples:**
+  ```bash
+  # Fast parallel analysis (default: 4 concurrent files)
+  hex-ddd-analyzer analyze "src/**/*.ts"
+
+  # Maximum performance (8 concurrent files)
+  hex-ddd-analyzer analyze "src/**/*.ts" --max-concurrency 8
+
+  # Sequential processing for debugging
+  hex-ddd-analyzer analyze "src/**/*.ts" --disable-parallel
+  ```
+- **Front Matter (Russian):**
+  - **Название документа:** Руководство пользователя Hexagonal DDD Analyzer
+  - **Версия:** 1.0.0
+  - **Дата:** 20 декабря 2025 года
+- **Purpose:**
+  - Validates codebase for:
+    - SOLID principles
+    - DDD patterns (entities, VOs, aggregates, services, repositories)
+    - Hexagonal architecture (layers, dependency direction, ports & adapters, CQRS)
+    - Security & quality (config management, sensitive data detection, complexity, naming conventions)
 - **[→ Repository](https://github.com/bivex/tsPro)**
 
 ---
