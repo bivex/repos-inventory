@@ -9,8 +9,8 @@
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 104 |
-| **Public** | 104 |
+| **Total Repositories** | 156 |
+| **Public** | 156 |
 | **Private** | 0 |
 | **Total Stars** | 31 |
 | **Total Forks** | 12 |
@@ -179,6 +179,21 @@ Various utilities, experiments, and personal projects.
 | [System-Audio-Recorder](https://github.com/bivex/System-Audio-Recorder) | C# | System audio recorder |
 
 **[→ View All Misc Projects](./categories/misc.md)**
+
+---
+
+## 📝 Recently Discovered Projects
+
+> 52 additional projects found after complete GitHub scan (March 2026)
+
+### [Missing Projects Documentation](./missing-projects.md)
+- 20+ additional MCP servers discovered
+- New developer tools and integrations
+- Enhanced Windows tools collection
+- Security and AI/ML projects
+- Updated totals: **156 repositories** (up from 104)
+
+---
 
 ---
 
