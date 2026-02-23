@@ -126,80 +126,186 @@
 
 ---
 
+### [reaper-reapy-mcp](https://github.com/bivex/reaper-reapy-mcp)
+- **Language:** Python 3.10+
+- **Description:** MCP server for controlling REAPER Digital Audio Workstation through AI assistants
+- **Key Features:**
+  - ✨ **104+ Specialized Tools:**
+    - 🎛️ Track Management — Create, rename, color, volume, pan, mute, solo, record arm
+    - 🎚️ FX Control — Add/remove effects, parameter automation, compressor/limiter presets
+    - 🎹 MIDI Operations — Create items, add/edit notes, pitch filtering, musical positioning
+    - 🎧 Audio Processing — Insert files, duplicate items, split, fade, crossfade
+    - 🔗 Routing & Mixing — Sends/receives, folder tracks, bus creation, comprehensive routing
+    - 🎚️ Sidechain & Bus — Sidechain compression, parallel processing, saturation buses
+    - 🎛️ Automation — Envelope creation, point editing, automation modes
+    - 🎯 Project Control — Tempo, markers, regions, master track, project clearing
+    - 📊 Audio Analysis — LUFS/loudness measurement, spectrum analysis, stereo imaging
+    - 🎵 Mastering Tools — LUFS normalization, broadcast compliance, streaming standards
+    - 📈 Gain Staging — Volume automation, clip gain, peak limiting
+    - 🎚️ Monitoring — Peak metering, crest factor, phase correlation
+    - 🎵 Dual Positioning — Time and musical notation support
+- **Prerequisites:**
+  - Python 3.10+
+  - REAPER DAW installed
+  - Enable ReaScript and configure Python path
+- **[→ Repository](https://github.com/bivex/reaper-reapy-mcp)**
+
+---
+
+### [easyprofiler-mcp](https://github.com/bivex/easyprofiler-mcp)
+- **Language:** Go
+- **Description:** MCP server for analyzing EasyProfiler profiles (.prof files)
+- **Key Features:**
+  - ✅ Протестировано на реальном 160MB файле с 6M+ блоками
+  - ⚡ Готов к использованию с Claude Desktop
+  - **5 Tools:**
+    1. `load_profile` — Загружает .prof файл для анализа
+    2. `get_slowest_blocks` — Топ самых медленных блоков (default: 10)
+    3. `get_thread_statistics` — Статистика использования времени по потокам
+    4. `get_hotspots` — Горячие точки (функции с наибольшим временем)
+    5. `analyze_performance_issues` — Комплексный анализ проблем (блокировки, дисбаланс, контекст)
+- **[→ Repository](https://github.com/bivex/easyprofiler-mcp)**
+
+---
+
+### [verysleepy-mcp](https://github.com/bivex/verysleepy-mcp)
+- **Language:** Go
+- **Description:** Professional MCP server for analyzing Very Sleepy CPU profiles (.sleepy files) with 40 years of senior engineering wisdom
+- **Key Features:**
+  - 🎯 Purpose: Deep performance analysis without manual inspection
+  - 🏗️ Architecture: Clean separation of concerns (parsing isolated from analysis)
+  - 🔧 Design Principles:
+    - Separation of concerns
+    - No external dependencies for core (parser uses stdlib)
+    - Caching for efficiency
+    - O(n) algorithms where possible
+  - **8 Tools:**
+    1. `load_profile` — Load and validate .sleepy profile
+    2. `find_hotspots` — Top N functions consuming most CPU time
+    3. `find_bottom_functions` — Bottom functions analysis
+    4. `analyze_modules` — Module analysis
+    5. `detect_issues` — Issue detection
+    6. `get_statistics` — Statistical analysis
+    7. `view_callstack` — View callstack
+    - And more...
+- **Focus Areas:** CPU bottlenecks, callstack analysis, module performance
+- **[→ Repository](https://github.com/bivex/verysleepy-mcp)**
+
+---
+
+### [mcp-discord](https://github.com/bivex/mcp-discord)
+- **Language:** Node.js v16+
+- **Description:** MCP server for interacting with Discord platform
+- **Key Features:**
+  - 🤖 **Bot Operations:**
+    - Login to Discord bot
+    - List servers bot is a member of
+    - Get server information
+  - 💬 **Message Management:**
+    - Search messages in server
+    - Read/delete channel messages
+    - Send messages to specified channels (IDs or names)
+  - 📰 **Forum Management:**
+    - Retrieve forum channel lists
+    - Create/delete/reply to forum posts
+    - Create/delete text channels
+  - 😀 **Reactions:**
+    - Add/remove message reactions
+  - 🪝 **Webhooks:**
+    - Create/delete/use webhooks
+- **Requirements:**
+  - Node.js 16+ and npm 7+
+  - Discord bot token
+  - Bot permissions (Message Content, Server Members, Presence intents enabled)
+  - Server permissions: Administrator (recommended) or specific permissions
+- **Integration:** Listed on glama.ai MCP servers directory
+- **[→ Repository](https://github.com/bivex/mcp-discord)**
+
+---
+
+### [mcpWinAudit](https://github.com/bivex/mcpWinAudit)
+- **Language:** C#
+- **Description:** Windows Audit MCP — Analyzes Windows System Event Log and performance
+- **Key Features:**
+  - 🔍 **11 Commands:**
+    1. `AnalyzeStartupLogs()` — Analyzes System Event Log for startup errors/warnings
+    2. `CheckFilePermissions(filePath)` — Checks access permissions
+    3. `CreateDirectory(path)` — Creates directory
+    4. `DeleteDirectory(path)` — Deletes directory
+    5. `GetCurrentDirectory()` — Gets current working directory
+    6. `GetLast1DaysFailedSystemEvents()` — Retrieves error events from last 1 day
+    7. `GetTop15PerformanceImpactingProcesses()` — Top 15 processes by CPU/memory
+    8. `ListAllProcesses()` — Lists all running processes with performance info
+    9. `ListFiles(path, recursive)` — Lists files/directories
+    10. `MoveDirectory(sourcePath, destinationPath)` — Moves directory
+    11. `MoveFile(sourcePath, destinationPath)` — Moves file
+    12. `RenameFile(oldPath, newPath)` — Renames file
+  - **Audited with:** 🔍 Smithery badge
+- **[→ Repository](https://github.com/bivex/mcpWinAudit)**
+
+---
+
+### [DnSpy-MCPserver-Extension](https://github.com/bivex/DnSpy-MCPserver-Extension)
+- **Language:** C#
+- **Description:** dnSpy MCP Extension
+- **[→ Repository](https://github.com/bivex/DnSpy-MCPserver-Extension)**
+
+---
+
+### [mcpWinAuditServer](https://github.com/bivex/mcpWinAuditServer)
+- **Language:** C#
+- **Description:** Windows Audit MCP Server
+- **[→ Repository](https://github.com/bivex/mcpWinAuditServer)**
+
+---
+
+### [x64DbgMCPServer](https://github.com/bivex/x64DbgMCPServer)
+- **Language:** C#
+- **Description:** x64dbg MCP Server
+- **[→ Repository](https://github.com/bivex/x64DbgMCPServer)**
+
+---
+
+### [VixMCP.Ai.Bridge](https://github.com/bivex/VixMCP.Ai.Bridge)
+- **Language:** C#
+- **Description:** Vix MCP AI Bridge
+- **[→ Repository](https://github.com/bivex/VixMCP.Ai.Bridge)**
+
+---
+
 ### [adb-mcp](https://github.com/bivex/adb-mcp)
-- **Language:** ?
 - **Description:** Android Debug Bridge MCP
 - **[→ Repository](https://github.com/bivex/adb-mcp)**
 
 ---
 
 ### [google-maps-mcp](https://github.com/bivex/google-maps-mcp)
-- **Language:** ?
 - **Description:** Google Maps MCP server
 - **[→ Repository](https://github.com/bivex/google-maps-mcp)**
 
 ---
 
 ### [scancodeMCP](https://github.com/bivex/scancodeMCP)
-- **Language:** ?
 - **Description:** ScanCode MCP for code analysis
 - **[→ Repository](https://github.com/bivex/scancodeMCP)**
 
 ---
 
 ### [jebmcp](https://github.com/bivex/jebmcp)
-- **Language:** ?
 - **Description:** JEB Decompiler MCP
 - **[→ Repository](https://github.com/bivex/jebmcp)**
 
 ---
 
 ### [WireMCP](https://github.com/bivex/WireMCP)
-- **Language:** ?
 - **Description:** WireGuard MCP
 - **[→ Repository](https://github.com/bivex/WireMCP)**
 
 ---
 
-### [mcpWinAudit](https://github.com/bivex/mcpWinAudit)
-- **Language:** ?
-- **Description:** Windows Audit MCP
-- **[→ Repository](https://github.com/bivex/mcpWinAudit)**
-
----
-
-### [DnSpy-MCPserver-Extension](https://github.com/bivex/DnSpy-MCPserver-Extension)
-- **Language:** ?
-- **Description:** dnSpy MCP Extension
-- **[→ Repository](https://github.com/bivex/DnSpy-MCPserver-Extension)**
-
----
-
-### [x64DbgMCPServer](https://github.com/bivex/x64DbgMCPServer)
-- **Language:** ?
-- **Description:** x64dbg MCP Server
-- **[→ Repository](https://github.com/bivex/x64DbgMCPServer)**
-
----
-
-### [mcpWinAuditServer](https://github.com/bivex/mcpWinAuditServer)
-- **Language:** ?
-- **Description:** Windows Audit MCP Server
-- **[→ Repository](https://github.com/bivex/mcpWinAuditServer)**
-
----
-
 ### [ida_pro_scripts](https://github.com/bivex/ida_pro_scripts)
-- **Language:** ?
 - **Description:** IDA Pro scripts
 - **[→ Repository](https://github.com/bivex/ida_pro_scripts)**
-
----
-
-### [VixMCP.Ai.Bridge](https://github.com/bivex/VixMCP.Ai.Bridge)
-- **Language:** ?
-- **Description:** Vix MCP AI Bridge
-- **[→ Repository](https://github.com/bivex/VixMCP.Ai.Bridge)**
 
 ---
 
