@@ -52,6 +52,42 @@ Model Context Protocol servers for integrating AI with various systems.
 
 ---
 
+### 🆕 **Additional MCP Servers** (20+ projects)
+
+| Project | Description |
+|---------|-------------|
+| [WinReg-Mcp](https://github.com/bivex/WinReg-Mcp) | Windows Registry MCP (production-ready, layered architecture) |
+| [carla-mcp-server](https://github.com/bivex/carla-mcp-server) | Carla audio plugin control (45 tools, 7 categories) |
+| [FramePro-MCP](https://github.com/bivex/FramePro-Mcp) | FramePro performance analysis (CPU hotspots, frame issues) |
+| [MemPro-mcp](https://github.com/bivex/MemPro-mcp) | MemPro memory profiling (leaks, fragmentation) |
+| [git-mcp-server](https://github.com/bivex/git-mcp-server) | Git operations (clone, commit, push, branch, diff) |
+| [adb-mcp](https://github.com/bivex/adb-mcp) | Android Debug Bridge MCP |
+| [google-maps-mcp](https://github.com/bivex/google-maps-mcp) | Google Maps MCP server |
+| [scancodeMCP](https://github.com/bivex/scancodeMCP) | ScanCode MCP for code analysis |
+| [jebmcp](https://github.com/bivex/jebmcp) | JEB Decompiler MCP |
+| [WireMCP](https://github.com/bivex/WireMCP) | WireGuard MCP |
+
+**[→ View All Additional MCP Servers](./categories/additional-mcp-servers.md)**
+
+### 🔌 **MCP Servers** (9+ projects)
+Model Context Protocol servers for integrating AI with various systems.
+
+| Project | Language | Stars | Description |
+|---------|----------|-------|-------------|
+| [kanboard-mcp](https://github.com/bivex/kanboard-mcp) | Go | ⭐ 19 | Kanboard integration (518 tools, 46 resources) |
+| [ZenTaoMcp](https://github.com/bivex/ZenTaoMcp) | Go | ⭐ 2 | ZenTao 21.7.7 integration |
+| [archi-mcp](https://github.com/bivex/archi-mcp) | Python | - | ArchiMate 3.2 diagram generation (201 tests, 59% coverage) |
+| [ILSpy-Mcp](https://github.com/bivex/ILSpy-Mcp) | C# | ⭐ 3 | .NET assembly decompilation |
+| [DiagSession-Mcp](https://github.com/bivex/DiagSession-Mcp) | C# | - | Windows ETL trace analysis |
+| [mcp-logic](https://github.com/bivex/mcp-logic) | Python | - | Logic calculator (Prover9/Mace4) |
+| [mcp-bpmn](https://github.com/bivex/mcp-bpmn) | TypeScript | - | BPMN diagrams |
+| [binary_ninja_mcp](https://github.com/bivex/binary_ninja_mcp) | Python | - | Binary Ninja integration |
+| [MCP-Shared-Memory](https://github.com/bivex/MCP-Shared-Memory) | C# | - | Shared memory for MCP |
+
+**[→ View All MCP Servers](./categories/mcp-servers.md)**
+
+---
+
 ### 🤖 **AI/LLM Tools** (9+ projects)
 Tools for working with AI models, coding agents, and LLM orchestration.
 
@@ -179,6 +215,38 @@ Various utilities, experiments, and personal projects.
 | [System-Audio-Recorder](https://github.com/bivex/System-Audio-Recorder) | C# | System audio recorder |
 
 **[→ View All Misc Projects](./categories/misc.md)**
+
+---
+
+## 📝 Additional Projects Discovery
+
+> 52 additional projects discovered after complete GitHub scan (total: 156 repositories)
+
+### Additional MCP Servers (20+)
+**[→ View All Additional MCP Servers](./categories/additional-mcp-servers.md)**
+
+### Additional Developer Tools (8+)
+**[→ View All Additional Developer Tools](./categories/additional-developer-tools.md)**
+
+### Additional Web & Frontend (10+)
+**[→ View All Additional Web Projects](./categories/additional-web-projects.md)**
+
+### Additional Security & Crypto (3+)
+**[→ View All Additional Security Projects](./categories/additional-security-projects.md)**
+
+### Additional AI & ML (3+)
+**[→ View All Additional AI/ML Projects](./categories/additional-ai-ml-projects.md)**
+
+### Additional Infrastructure (2+)
+**[→ View All Additional Infrastructure](./categories/additional-infrastructure.md)**
+
+### Additional Windows Tools (4+)
+**[→ View All Additional Windows Tools](./categories/additional-windows-tools.md)**
+
+### Additional Personal & Misc (6+)
+**[→ View All Additional Misc Projects](./categories/additional-misc-projects.md)**
+
+---
 
 ---
 
