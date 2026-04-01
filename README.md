@@ -9,8 +9,8 @@
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 156 |
-| **Public** | 156 |
+| **Total Repositories** | 216 |
+| **Public** | 216 |
 | **Private** | 0 |
 | **Total Stars** | 50+ |
 | **Total Forks** | 19+ |
