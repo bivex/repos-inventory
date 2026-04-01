@@ -304,13 +304,13 @@
 |---------|------|-----|-------------|
 | [Noise_IK_25519_ChaChaPoly_BLAKE2b](https://github.com/bivex/Noise_IK_25519_ChaChaPoly_BLAKE2b) | C | Sec | Noise protocol secure mesh |
 
-### N cont. (2)
+### N cont. (1)
 
 | Project | Lang | Cat | Description |
 |---------|------|-----|-------------|
 | [NubemGenesisMCP](https://github.com/bivex/NubemGenesisMCP) | Python | AI | AI personas meta-system |
 
-### O (4)
+### O (2)
 
 | Project | Lang | Cat | Description |
 |---------|------|-----|-------------|
@@ -411,7 +411,7 @@
 | [symmetrical-umbrella](https://github.com/bivex/symmetrical-umbrella) | JS | Misc | Pride project |
 | [synco](https://github.com/bivex/synco) | C++ | Mac | macOS time sync tools |
 
-### S cont. (2)
+### S cont. (1)
 
 | Project | Lang | Cat | Description |
 |---------|------|-----|-------------|
