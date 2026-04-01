@@ -1,7 +1,7 @@
 # 📚 Bivex GitHub Projects Inventory
 
 > **Complete catalog and inventory of all GitHub projects by @bivex**
-> Last updated: 2026-02-23
+> Last updated: 2026-04-01
 
 ---
 
@@ -12,10 +12,10 @@
 | **Total Repositories** | 156 |
 | **Public** | 156 |
 | **Private** | 0 |
-| **Total Stars** | 31 |
-| **Total Forks** | 12 |
+| **Total Stars** | 50+ |
+| **Total Forks** | 19+ |
 | **Languages** | 20+ |
-| **Active Projects** | 10+ (Feb 2026) |
+| **Active Projects** | 10+ (Apr 2026) |
 
 ---
 
@@ -23,9 +23,9 @@
 
 | Project | ⭐ Stars | 🍴 Forks | Language | Description |
 |---------|---------|----------|----------|-------------|
-| [kanboard-mcp](https://github.com/bivex/kanboard-mcp) | 19 | 7 | Go | MCP server for Kanboard integration |
-| [ILSpy-Mcp](https://github.com/bivex/ILSpy-Mcp) | 3 | 1 | C# | Reverse engineering via ILSpy |
-| [ZenTaoMcp](https://github.com/bivex/ZenTaoMcp) | 2 | 1 | Go | MCP server for ZenTao PM |
+| [kanboard-mcp](https://github.com/bivex/kanboard-mcp) | 20 | 8 | Go | MCP server for Kanboard integration |
+| [ILSpy-Mcp](https://github.com/bivex/ILSpy-Mcp) | 12 | 4 | C# | .NET assembly decompilation |
+| [ZenTaoMcp](https://github.com/bivex/ZenTaoMcp) | 3 | 1 | Go | MCP server for ZenTao PM |
 | [Kage](https://github.com/bivex/Kage) | 3 | 2 | PHP | PHP code encryption/protection |
 | [bivex.copyright-notice](https://github.com/bivex/bivex.copyright-notice-0.1.0) | 1 | 1 | JavaScript | Copyright notice inserter |
 
@@ -38,10 +38,10 @@ Model Context Protocol servers for integrating AI with various systems.
 
 | Project | Language | Stars | Description |
 |---------|----------|-------|-------------|
-| [kanboard-mcp](https://github.com/bivex/kanboard-mcp) | Go | ⭐ 19 | Kanboard integration (518 tools, 46 resources) |
-| [ZenTaoMcp](https://github.com/bivex/ZenTaoMcp) | Go | ⭐ 2 | ZenTao 21.7.7 integration |
+| [kanboard-mcp](https://github.com/bivex/kanboard-mcp) | Go | ⭐ 20 | Kanboard integration (518 tools, 46 resources) |
+| [ZenTaoMcp](https://github.com/bivex/ZenTaoMcp) | Go | ⭐ 3 | ZenTao 21.7.7 integration |
 | [archi-mcp](https://github.com/bivex/archi-mcp) | Python | - | ArchiMate 3.2 diagram generation (201 tests, 59% coverage) |
-| [ILSpy-Mcp](https://github.com/bivex/ILSpy-Mcp) | C# | ⭐ 3 | .NET assembly decompilation |
+| [ILSpy-Mcp](https://github.com/bivex/ILSpy-Mcp) | C# | ⭐ 12 | .NET assembly decompilation |
 | [DiagSession-Mcp](https://github.com/bivex/DiagSession-Mcp) | C# | - | Windows ETL trace analysis |
 | [mcp-logic](https://github.com/bivex/mcp-logic) | Python | - | Logic calculator (Prover9/Mace4) |
 | [mcp-bpmn](https://github.com/bivex/mcp-bpmn) | TypeScript | - | BPMN diagrams |
@@ -68,25 +68,6 @@ Model Context Protocol servers for integrating AI with various systems.
 | [WireMCP](https://github.com/bivex/WireMCP) | WireGuard MCP |
 
 **[→ View All Additional MCP Servers](./categories/additional-mcp-servers.md)**
-
-### 🔌 **MCP Servers** (9+ projects)
-Model Context Protocol servers for integrating AI with various systems.
-
-| Project | Language | Stars | Description |
-|---------|----------|-------|-------------|
-| [kanboard-mcp](https://github.com/bivex/kanboard-mcp) | Go | ⭐ 19 | Kanboard integration (518 tools, 46 resources) |
-| [ZenTaoMcp](https://github.com/bivex/ZenTaoMcp) | Go | ⭐ 2 | ZenTao 21.7.7 integration |
-| [archi-mcp](https://github.com/bivex/archi-mcp) | Python | - | ArchiMate 3.2 diagram generation (201 tests, 59% coverage) |
-| [ILSpy-Mcp](https://github.com/bivex/ILSpy-Mcp) | C# | ⭐ 3 | .NET assembly decompilation |
-| [DiagSession-Mcp](https://github.com/bivex/DiagSession-Mcp) | C# | - | Windows ETL trace analysis |
-| [mcp-logic](https://github.com/bivex/mcp-logic) | Python | - | Logic calculator (Prover9/Mace4) |
-| [mcp-bpmn](https://github.com/bivex/mcp-bpmn) | TypeScript | - | BPMN diagrams |
-| [binary_ninja_mcp](https://github.com/bivex/binary_ninja_mcp) | Python | - | Binary Ninja integration |
-| [MCP-Shared-Memory](https://github.com/bivex/MCP-Shared-Memory) | C# | - | Shared memory for MCP |
-
-**[→ View All MCP Servers](./categories/mcp-servers.md)**
-
----
 
 ### 🤖 **AI/LLM Tools** (9+ projects)
 Tools for working with AI models, coding agents, and LLM orchestration.
@@ -329,8 +310,8 @@ Various utilities, experiments, and personal projects.
 
 This inventory is automatically maintained by @bivex's AI assistant via GitHub API.
 
-**Last updated:** 2026-02-23  
-**Total repositories tracked:** 104
+**Last updated:** 2026-04-01  
+**Total repositories tracked:** 156
 
 ---
 
